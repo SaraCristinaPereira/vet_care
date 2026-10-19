@@ -4,12 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VetCare</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
 </head>
 <body>
 
+    <header class="sidebar">
+        <div class="header__brand">
+            <h1 class="header__title">Vet<mark>Care</mark></h1>
+        </div>
+
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link">Boas-Vindas</a></li>
+                <li class="nav__item"><a href="#especialidades" class="nav__link">Especialidades Médicas</a></li>
+                <li class="nav__item"><a href="#equipe" class="nav__link">Corpo  Clínico</a></li>
+                <li class="nav__item"><a href="#infraestrutura" class="nav__link">Infraestrutura e Atendimento</a></li>
+                <li class="nav__item"><a href="#faq" class="nav__link">FAQ</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
     <section id="home" class="section-hero">
  
-        <h1>Cuidados Especializados e Amor ao Seu Pet </h1>
+        <h1 class="section__title">Cuidados Especializados e Amor ao Seu Pet </h1>
 
         <p>
             O Hospital Veterinário VetCare oferece estrutura hospitalar completa 24 horas por dia.
@@ -21,43 +40,32 @@
  
     <section id="especialidades" class="section_especialidades">
 
-        <h1>Nossas Especialidades</h1>
+        <h1 class="section__title">Nossas Especialidades</h1>
 
         <section class="card-section_especialidades">
 
-            <div class="card-section_especialidades card-section_especialidades--card-1"></div>
-            <div class="card-section_especialidades card-section_especialidades--card-2"></div>
-            <div class="card-section_especialidades card-section_especialidades--card-3"></div>        
-            Card 01 (Cardiologia Veterinária): Avaliação preventiva e exames ecocardiográficos avançados
-            para garantir a saúde cardíaca do seu animal.
+            <div class="card-section_especialidades card-section_especialidades--card-1">Avaliação preventiva e exames ecocardiográficos avançados para garantir a saúde cardíaca do seu animal.</div>
+            <div class="card-section_especialidades card-section_especialidades--card-2">Cirurgias complexas e tratamento de fraturas com equipamentos de última geração.</div>
+            <div class="card-section_especialidades card-section_especialidades--card-3"> Diagnóstico preciso de alergias, infecções cutâneas e tratamentos terapêuticos modernos.</div>        
+            <!-- Card 01 (Cardiologia Veterinária): 
     
-            Card  02  (Ortopedia  e  Traumatologia):  Cirurgias  complexas  e  tratamento  de  fraturas  com
-            equipamentos de última geração.
+            Card  02  (Ortopedia  e  Traumatologia):  
     
-            Card  03  (Dermatologia  Especializada):  Diagnóstico  preciso  de  alergias,  infecções  cutâneas  e
-            tratamentos terapêuticos modernos.
-    
+            Card  03  (Dermatologia  Especializada):  -->
         </section>
 
     </section>
  
     <section id="equipe" class="section-corpo">
 
-        <h1>Corpo Clínico Responsável</h1>
+        <h1 class="section__title">Corpo Clínico Responsável</h1>
 
         <section class="card-section_especialidades">
 
-            <div class="card-section_especialidades card-section_especialidades--card-4"></div>
-            <div class="card-section_especialidades card-section_especialidades--card-5"></div>
-            <div class="card-section_especialidades card-section_especialidades--card-6"></div>        
-        Veterinário 01: Dra. Camila Rocha - CRMV 12.450 - Especialista em Cirurgia Geral e Cuidados
-        Intensivos.
-    
-        Veterinário  02:  Dr.  Henrique  Silva  -  CRMV  15.890  -  Especialista  em  Neurologia  e  Ortopedia
-        Animal.
-    
-        Veterinário 03: Dra. Juliana Mendes  - CRMV 18.210  - Especialista em Medicina de Felines e
-        Cardiologia.
+            <div class="card-section_especialidades card-section_especialidades--card-4">Dra. Camila Rocha - CRMV 12.450 - Especialista em Cirurgia Geral e Cuidados Intensivos.</div>
+            <div class="card-section_especialidades card-section_especialidades--card-5">Dr.  Henrique  Silva  -  CRMV  15.890  -  Especialista  em  Neurologia  e  Ortopedia Animal.</div>
+            <div class="card-section_especialidades card-section_especialidades--card-6">Dra. Juliana Mendes  - CRMV 18.210  - Especialista em Medicina de Felines e Cardiologia.</div>        
+
         </section>
 
     
@@ -78,7 +86,7 @@
 
     <section id="faq" class="section-faq">
         
-        <h1>Perguntas Frequentes (FAQ)</h1>
+        <h1 class="faq__title">Perguntas Frequentes (FAQ)</h1>
 
         <div class="faq__wrapper">
 
@@ -114,5 +122,6 @@
         <div class="footer__section">
 
     </footer>
+
 </body>
 </html>
