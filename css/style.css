@@ -1,0 +1,18 @@
+@import './design-system.css';
+@import './reset.css';
+
+
+.header{
+
+}
+
+
+
+.card-image{
+    background-color: var(--color-bg-card);
+    padding: 12px;
+    border-radius: var(--radius-md);
+    box-shadow: var(--shadow-card);
+    border: 1px solid var(--color-border);
+    transition: var(--transition);
+}
