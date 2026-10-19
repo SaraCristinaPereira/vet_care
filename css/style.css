@@ -13,22 +13,24 @@
 
     display: flex;
     align-items: center;
-    justify-content: space-between;
+
     padding: 0 5%;
     z-index: 1000;
     backdrop-filter: blur(12px);
     flex-direction: column;
+    justify-content: center;
 }
 
 .header__brand{
-
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
 }
 
 .header__title{
     font-size: var(--font-size-xl);
     color: var(--color-primary);
     font-weight: 700;
-
 }
 
 .nav{
@@ -36,7 +38,6 @@
 }
 
 .nav__list{
-    justify-content: center;
     gap: 12px;
     /* background-color: var(--color-nav-list-bg); */
     padding: 6px;
